@@ -1,0 +1,171 @@
+
+body{
+    padding:150px 0px 0px 0px;
+    z-index:0;
+    font-weight: 200;
+    color: #A8A8A8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+}
+
+h4 {
+    margin-bottom: -10px;
+}
+
+hr {
+    border: 0 none;
+    height: 4px;
+    background-color: #333333;
+}
+
+input[type=text] {
+    background-color: #EBEBEB !important;
+    border: none !important;
+    height: 30px;
+    font-size:11px;
+}
+
+textarea {
+    background-color: #EBEBEB !important;
+    border: none !important;
+    height: 80px;
+}
+
+nav {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+address,
+.address-title {
+    color: #777777;
+    font-weight: 400;
+}
+
+.input-padding-right {
+    padding-right:4px !important;
+    margin-bottom: -8px !important;
+    margin-top:-8px !important;
+}
+
+.input-padding-left {
+    padding-left:4px !important;
+    margin-bottom: -8px !important;
+    margin-top:-8px !important;
+}
+
+
+.active {
+    font-weight: bold;
+}
+
+.orange {
+    color: #FF6100;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.fnt-weight-100 {
+    font-weight: 100;
+}
+
+.top-nav {
+    margin-top: -5px;
+    background: #FF6100;
+    font-weight: 600;
+}
+
+.top-nav  a {
+    font-weight: 600;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.second-nav {
+    margin-top: 40px;
+    min-height: 80px !important;
+    background: #EBEBEB;
+    border: none;
+}
+
+.second-nav .navbar-brand,
+.second-nav .navbar-nav > li > a {
+    padding: 0 15px; height: 80px; line-height: 80px;}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    color: black;
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover > a
+ {
+    border-bottom: 5px solid #ff6600;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 60px;
+    left:-25px;
+    min-width: 100px;
+    max-width: 810px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.dropdown-menu > li >a:hover {
+    font-weight:600;
+}
+
+.navbar-nav > li > a {
+    color: #242424 !important;
+    font-size: 75%;
+    margin-left: -15px;
+    font-weight: 300;
+}
+
+.breadcrumb {
+    background: none;
+}
+
+.reach-us,
+.contact-us {
+    padding-right: 35px;
+}
+
+
+.button {
+    background: #FF6100;
+    color: white;
+    border: none;
+    width: 25%;
+    padding: 8px 15px;
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+}
+
+.social img {
+    padding-right: 7px;
+}
